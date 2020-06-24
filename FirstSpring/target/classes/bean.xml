@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+   
+   <!-- <context:component-scan base-package="com.sample"></context:component-scan> -->
+   
+   <!-- <bean id="personid" class="com.sample.FirstSpring.Person">
+   		<property name="name" value="Vadivel"></property>
+   </bean> -->
+   
+   <!-- <bean id="person" class="com.sample.FirstSpring.Person">
+   		<constructor-arg value="vadivel"></constructor-arg>
+   		<constructor-arg value="35"></constructor-arg>
+   		<constructor-arg ref="address"></constructor-arg>
+   </bean> -->
+   
+   <!-- <bean id="address" class="com.sample.FirstSpring.Address">
+   		<property name="street" value="Dubai main road"></property>
+   		<property name="city" value="Dubai"></property>
+   		<property name="pincode" value="12345"></property>
+   </bean> -->
+   
+</beans>
